@@ -11,7 +11,7 @@ searchButton.addEventListener('click', function() {
             result.innerHTML = `<h2 style="margin-bottom: 15px;">City : ${response.name}</h2>
                                 <p style="margin-bottom: 17px;">Conditions : ${response.clouds.all}%</p>
                                 <p style="margin-bottom: 17px;">Temperature : ${response.main.temp_max}°С</p>
-                                <p>Wind Speed : ${response.wind.speed} m/s</p>`
+                                <p>Wind Speed : ${response.wind.speed} km/h</p>`
         })
     inputKeyword.value = null;
 
