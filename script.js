@@ -1,6 +1,6 @@
 const searchButton = document.querySelector('#button-addon2');
 const inputKeyword = document.querySelector('.input-keyword');
-document.body.style.backgroundImage = 'url(img/sky.jpg)'
+
 
 searchButton.addEventListener('click', function() {
 
